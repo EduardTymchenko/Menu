@@ -1,4 +1,4 @@
-# Questionnaire
+# Restaurant menu
 JavaEE Hibernate
 
 Создать таблицу «Меню в ресторане». Колонки: название блюда,
