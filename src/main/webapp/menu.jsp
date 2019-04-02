@@ -73,35 +73,5 @@
     </c:forEach>
 </table>
 <c:if test="${dishes_select == null}"><strong>You chose nothing!</strong> </c:if>
-<%--Наши блюда: <br>--%>
-<%--<c:choose>--%>
-<%--<c:when test="${(dishes ne null) && (fn:length(dishes) gt 0)}">--%>
-<%--<table border="1">--%>
-<%--<tr>--%>
-<%--<th>Название</th><th>Цена (грн)</th><th>Вес (гр)</th><th>Скидка</th>--%>
-<%--</tr>--%>
-<%--<c:forEach items="${dishes}" var="a">--%>
-<%--<tr>--%>
-<%--<td>${a.name}</td>--%>
-<%--<td>${a.price / 100.0}</td>--%>
-<%--<td>${a.weight / 1000.0}</td>--%>
-<%--<td>--%>
-<%--<c:choose>--%>
-<%--<c:when test="${a.discount eq true}">--%>
-<%--Есть--%>
-<%--</c:when>--%>
-<%--<c:otherwise>--%>
-<%--Нету--%>
-<%--</c:otherwise>--%>
-<%--</c:choose>--%>
-<%--</td>--%>
-<%--</tr>--%>
-<%--</c:forEach>--%>
-<%--</table>--%>
-<%--</c:when>--%>
-<%--<c:otherwise>--%>
-<%--Нет.--%>
-<%--</c:otherwise>--%>
-<%--</c:choose>--%>
 </body>
 </html>
